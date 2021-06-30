@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	<title>TempConvert</title>
+</head>
+<body class="body-content">
+	<div class="main">
+		<h1>TempConvert</h1>
+		
+		<form action="">
+			<label for="input">Degrees</label><br>
+			<input type="number" class="input" name="temp" id="input" value="72" placeholder="72" required>
+			<label for="type" class="type">Type</label>
+			<select name="type" id="type" required>
+				<option value="fahrenheit">Fahrenheit</option>
+				<option value="celcius">Celcius</option>
+			</select>
+			<button type="button" onclick="convert()">Convert</button>
+		</form>
+		<div class="result">Result</div>
+		<div id="result">Results will appear here</div>
+		<div class="clr"></div>
+		
+		<script src="functions.js">
+		</script>
+	</div>
+	
+</body>
+</html>

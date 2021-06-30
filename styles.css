@@ -1,0 +1,84 @@
+* {
+	margin:0;
+	padding:0;
+}
+.body-content {
+	background-color:rgb(240, 238, 238);
+}
+
+.clr {
+	clear:both;
+}
+
+h1 {
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 15px;
+}
+.main {
+	width: 600px;
+	height: 250px;
+	background-color: white;
+	margin-top: 120px;
+	margin-left:400px;
+	margin-right:400px;
+	padding:25px;
+	border-radius: 10px;
+	border-right: 3px ;
+	border-bottom: 3px;
+	box-shadow: 4px 3px rgba(211, 209, 209, 0.918);
+	
+
+}
+
+label {
+	color: rgba(122, 122, 122, 0.582);
+	font-family: 'Roboto', sans-serif;
+}
+
+.input {
+	width: 150px;
+	height: 40px;
+	padding:2px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.type {
+	margin-left: 15px;
+}
+
+select {
+	width: 150px;
+	height: 50px;
+	padding:2px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.result {
+	color: rgba(122, 122, 122, 0.582);
+	font-family: 'Roboto', sans-serif;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#result {
+	color:black;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+button {
+	width: 140px;
+	height: 65px;
+	padding:2px;
+	border-radius: 15px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	background-color:rgba(0, 0, 255, 0.719);
+	color:white;
+	margin-left: 60px;
+
+}
